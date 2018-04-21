@@ -8,7 +8,7 @@ enum squareType {possiblePath, barrier, temporaryPath, validatedPath};
 const int numberOfRows = 9; // Enums Must Have Constant Value
 const int numberOfColumns = 9; // Enums Must Have Constant Value
 
-// Function Prototype
+// Function Prototypes
 bool findPath(squareType[numberOfRows][numberOfColumns]);
 bool findPath(squareType[numberOfRows][numberOfColumns], int, int);
 
